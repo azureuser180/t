@@ -4,7 +4,7 @@ provider "aws" {
 resource "aws_instance" "my_instance" {
   ami           = "ami-0e1bed4f06a3b463d"
   instance_type = "t2.micro"
-  key_name      = "test"  # Replace with your actual key pair , ok tested webhook
+  key_name      = "test"  # Replace with your actual key pair , ok tested webhook chnage noe
   tags = {
     Name = "TerraformInstance"
   }
